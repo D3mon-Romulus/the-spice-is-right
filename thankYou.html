@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Thank You</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+
+    header {
+      background-color: #2e7d32;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header img {
+      max-height: 50px;
+      vertical-align: middle;
+    }
+
+    header h1 {
+      display: inline-block;
+      margin-left: 10px;
+      vertical-align: middle;
+      font-size: 24px;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 40px 20px;
+      min-height: calc(100vh - 80px);
+    }
+
+    .thank-you-message {
+      background: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 12px rgba(0, 0, 0, 0.1);
+      width: 100%;
+      max-width: 500px;
+      text-align: center;
+    }
+
+    .thank-you-message h2 {
+      margin-top: 0;
+      margin-bottom: 20px;
+      color: #2e7d32;
+    }
+
+    .thank-you-message p {
+      font-size: 18px;
+      margin-bottom: 20px;
+    }
+
+    .button {
+      padding: 12px 20px;
+      background-color: #2e7d32;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      text-decoration: none;
+    }
+
+    .button:hover {
+      background-color: #27642a;
+    }
+
+    @media (max-width: 600px) {
+      .thank-you-message {
+        padding: 20px;
+      }
+
+      header h1 {
+        font-size: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.jpeg.jpg" alt="Your Logo" />
+    <h1>The Spice is Right</h1>
+  </header>
+
+  <div class="container">
+    <div class="thank-you-message">
+      <h2>Thank You!</h2>
+      <p>Your message has been successfully sent. We'll get back to you shortly.</p>
+      <a class="button" href="index.html">Return to Homepage</a>
+    </div>
+  </div>
+
+</body>
+</html>
